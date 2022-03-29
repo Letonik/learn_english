@@ -1,0 +1,16 @@
+@import "../../../styles/_global";
+
+.navigation {
+  .item {
+    margin: 62px 0;
+    a {
+      font-weight: 500;
+      font-size: 18px;
+      text-decoration:none;
+      color: $lightGray;
+    }
+    .active {
+      color: $blue;
+    }
+  }
+}

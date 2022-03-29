@@ -1,0 +1,11 @@
+@import "../../styles/_global";
+
+.logo {
+  text-align: center;
+  font-weight: 500;
+  font-size: 48px;
+  color: $darkGray;
+  .my {
+    color: $blue;
+  }
+}
