@@ -66,9 +66,9 @@ const useValidation = (value: string, validations: IValidations): IUseValidation
           break
         case 'confirmPassword':
           if (value === validations[validation]) {
-            setEmailError(false)
+            setConfirmError(false)
           } else {
-            setEmailError(true)
+            setConfirmError(true)
             setTextError(`Пароли не совпадают`)
           }
           break
