@@ -1,9 +1,9 @@
-import React, {useEffect} from 'react';
+import React, {FC, useEffect} from 'react';
 import {Outlet, useNavigate} from "react-router-dom";
 import MainSidebar from "../MainSIdebar/MainSidebar";
 import style from './Layout.module.scss'
 
-const Layout = () => {
+const Layout: FC = () => {
 
   ///////////// FAKE //////////////
   const isAuthorized: boolean = true

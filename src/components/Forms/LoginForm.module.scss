@@ -1,0 +1,17 @@
+@import "../../styles/_global";
+
+.bottomForm {
+  @include flex-between-end;
+  margin-top: 15px;
+  button {
+    color: $white;
+    padding: 5px 40px;
+  }
+  .text {
+    @include font500(12px);
+    cursor: pointer;
+    &:hover {
+      color: $blue;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+@import "../../styles/_global";
+
+.btn {
+  margin-top: 15px;
+  @include flex-end-center;
+  button {
+    color: $white;
+    padding: 5px 40px;
+  }
+}

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {FC} from 'react';
 import {Route, Routes} from "react-router-dom";
 import Home from "../pages/Home";
 import Dictionary from "../pages/Dictionary";
@@ -7,10 +7,10 @@ import Training from "../pages/Training";
 import Articles from "../pages/Articles";
 import Other from "../pages/Other";
 import NotFound from "../components/NotFound/NotFound";
-import Authorization from "../pages/Autorization";
+import Authorization from "../pages/Authorization";
 import Profile from "../pages/Profile";
 
-const MainRoutes = () => {
+const MainRoutes: FC = () => {
   return (
     <Routes>
       <Route path="/" element={<Layout />}>

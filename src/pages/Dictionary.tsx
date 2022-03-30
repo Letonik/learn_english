@@ -1,6 +1,6 @@
-import React from 'react';
+import React, {FC} from 'react';
 
-const Dictionary = () => {
+const Dictionary: FC = () => {
   return (
     <div>
       Dictionary

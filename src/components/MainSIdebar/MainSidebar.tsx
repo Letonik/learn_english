@@ -1,9 +1,9 @@
-import React from 'react';
+import React, {FC} from 'react';
 import style from './MainSidebar.module.scss'
 import Logo from "../Logo/Logo";
 import Navigation from "./Navigation/Navigation";
 
-const MainSidebar = () => {
+const MainSidebar: FC = () => {
   return (
     <>
       <div className={style.logo}>

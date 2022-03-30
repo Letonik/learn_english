@@ -1,0 +1,24 @@
+@import "../styles/_global";
+
+.wrapper {
+  width: 90%;
+  max-width: 300px;
+  margin: auto;
+  margin-top: 20vh;
+  padding: 20px;
+  .nav {
+    @include flex-around-center;
+    .navItem {
+      @include font500(18px);
+      padding: 5px 15px;
+      cursor: pointer;
+      color: $darkGray;
+      &:hover {
+        border-bottom: 1px solid $lightGray;
+      }
+    }
+    .navActive {
+      border-bottom: 1px solid $blue;
+    }
+  }
+}

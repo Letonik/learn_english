@@ -1,0 +1,33 @@
+///////////// FLEX //////////////
+@mixin flex {display: flex}
+@mixin flex-column {display: flex; flex-direction: column}
+@mixin flex-start-start {display: flex; justify-content: start; align-items: start}
+@mixin flex-start-center {display: flex; justify-content: start; align-items: end}
+@mixin flex-start-end {display: flex; justify-content: start; align-items: end}
+@mixin flex-center-start {display: flex; justify-content: center; align-items: start}
+@mixin flex-center-center {display: flex; justify-content: center; align-items: center}
+@mixin flex-center-end {display: flex; justify-content: center; align-items: end}
+@mixin flex-end-start {display: flex; justify-content: end; align-items: start}
+@mixin flex-end-center {display: flex; justify-content: end; align-items: center}
+@mixin flex-end-end {display: flex; justify-content: end; align-items: end}
+@mixin flex-between-start {display: flex; justify-content: space-between; align-items: start}
+@mixin flex-between-center {display: flex; justify-content: space-between; align-items: center}
+@mixin flex-between-end {display: flex; justify-content: space-between; align-items: end}
+@mixin flex-around-start {display: flex; justify-content: space-around; align-items: start}
+@mixin flex-around-center {display: flex; justify-content: space-around; align-items: center}
+@mixin flex-around-end {display: flex; justify-content: space-around; align-items: end}
+
+///////////// FONT //////////////
+@mixin font300($size) {font-weight: 300; font-size: $size}
+@mixin font500($size) {font-weight: 500; font-size: $size}
+@mixin font700($size) {font-weight: 700; font-size: $size}
+
+/////////// POSITION ////////////
+@mixin position($position: absolute, $top: null, $right: null, $bottom: null, $left: null, $z-index) {
+  position: $position;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+  z-index: $z-index;
+}
